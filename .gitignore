@@ -21,8 +21,6 @@ codegen/
 
 # Resultados generados por el análisis
 # Los datos experimentales en datos/ sí se conservan.
-resultados/**
-!resultados/
 !resultados/tablas/
 !resultados/graficas/
 !resultados/tablas/.gitkeep
