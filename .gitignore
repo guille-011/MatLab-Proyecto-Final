@@ -25,10 +25,8 @@ resultados/**
 !resultados/
 !resultados/tablas/
 !resultados/graficas/
-!resultados/modelos/
 !resultados/tablas/.gitkeep
 !resultados/graficas/.gitkeep
-!resultados/modelos/.gitkeep
 
 # Archivos del sistema operativo y editores
 .DS_Store
