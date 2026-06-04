@@ -214,3 +214,10 @@ En consecuencia:
 - `resultados/resumen_ejecutivo.txt`
 - `resultados/modelos/modelo_medium_tree.mat`
 - `resultados/modelos/sesion_regression_learner.mat`
+
+## Conclusiones
+
+- El uso combinado de MPI y OpenMP permitió mejorar significativamente el rendimiento de la multiplicación de matrices, reduciendo los tiempos de ejecución a medida que aumentó el nivel de paralelismo disponible.
+- La comparación entre los algoritmos clásico y transpuesto mostró diferencias de desempeño asociadas al acceso a memoria. En varias configuraciones, la versión transpuesta obtuvo mejores resultados gracias a un uso más eficiente de la caché.
+- Aunque el incremento de procesos e hilos generó mejoras importantes en velocidad, la eficiencia tendió a disminuir para configuraciones de paralelismo más altas debido a los costos de comunicación y sincronización entre procesos.
+- El modelo predictivo desarrollado en MATLAB demostró que es posible estimar los tiempos de ejecución a partir de las características de la configuración experimental, constituyendo una herramienta útil para apoyar la toma de decisiones y el análisis de rendimiento.
