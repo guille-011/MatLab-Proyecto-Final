@@ -1,0 +1,44 @@
+# Entornos locales
+.venv/
+venv/
+env/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos temporales de MATLAB
+*.asv
+*.m~
+*.mlx~
+*.autosave
+slprj/
+codegen/
+*.mex*
+
+# Resultados generados por el análisis
+# Los datos experimentales en datos/ sí se conservan.
+resultados/**
+!resultados/
+!resultados/tablas/
+!resultados/graficas/
+!resultados/modelos/
+!resultados/tablas/.gitkeep
+!resultados/graficas/.gitkeep
+!resultados/modelos/.gitkeep
+
+# Archivos del sistema operativo y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Salidas pesadas o reproducibles comunes
+*.log
+*.tmp
+*.bak
